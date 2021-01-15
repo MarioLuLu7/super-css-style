@@ -1,6 +1,6 @@
 {
   "name": "super-css-style",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "css-in-js library width typescripts",
   "main": "index.js",
   "types": "dist/index.d.ts",
@@ -23,10 +23,9 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-typescript2": "^0.29.0",
     "rollup-plugin-uglify": "^6.0.4",
-    "typescript": "^4.1.3"
-  },
-  "dependencies": {
+    "typescript": "^4.1.3",
     "core-js": "^3.8.2",
     "csstype": "^3.0.5"
-  }
+  },
+  "files": ["dist", "README.md", "package.json"]
 }

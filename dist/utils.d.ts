@@ -3,7 +3,7 @@ export declare type TN = '' | undefined | null;
 export declare type Tcss<T, P, F> = T | Tfn<T, P, F> | TN;
 export declare type Tfn<T, P, F> = (d: {
     p: P;
-    f: F;
+    m: F;
 }) => T;
 export declare function base<T, P, F>(that: SuperCss, isImportant: boolean, value: Tcss<T, P, F>, key: string | string[], enums: P, iswebkit?: boolean, ismoz?: boolean, iso?: boolean): SuperCss;
 export declare const end: (v: SuperCss, id?: string | undefined) => string;
