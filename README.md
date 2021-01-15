@@ -24,7 +24,7 @@ const container = css(
     s => 
     s()
     .color('#333')
-    .backgroundColor('rbg(255, 255, 255)')
+    .backgroundColor('rgb(255, 255, 255)')
     .font('italic bold 12px/20px arial,sans-serif')
 )
 
