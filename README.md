@@ -31,6 +31,19 @@ const container = css(
 <div class={container}>some thing</div>
 ```
 
+### With Important
+``` jsx
+import css from 'super-css-style'
+
+const container = css(
+    s => 
+    s()
+    .color('#333', true) // (value, isimportant)
+)
+
+<div class={container}>some thing</div>
+```
+
 ### With Method
 use `v => v.m.METHOD` to view and use methods belonging to the style.
 ``` jsx
