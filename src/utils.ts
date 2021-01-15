@@ -2,7 +2,7 @@ import { SuperCss } from './superCss';
 
 export type TN = '' | undefined | null;
 export type Tcss<T, P, F> = T | Tfn<T, P, F> | TN;
-export type Tfn<T, P, F> = (d: { p: P; f: F }) => T;
+export type Tfn<T, P, F> = (d: { p: P; m: F }) => T;
 
 export function base<T, P, F>(
   that: SuperCss,
@@ -20,7 +20,7 @@ export function base<T, P, F>(
     if (typeof value === 'function') {
       v = (value as Tfn<T, P, F>)({
         p: enums,
-        f: (fns as unknown) as F,
+        m: (fns as unknown) as F,
       });
     }
     const data = v + im;
