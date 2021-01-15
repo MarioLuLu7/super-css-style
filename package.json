@@ -1,6 +1,6 @@
 {
   "name": "super-css-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "css-in-js library width typescripts",
   "main": "index.js",
   "types": "dist/index.d.ts",
