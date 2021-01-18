@@ -145,7 +145,7 @@ media('screen and (max-width:240px)', s => ({
 
 ### Global
 ```jsx
-import { media } from 'super-css-style'
+import { global } from 'super-css-style'
 
 global(s => ({
   '.title': s().fontSize('12px'),
